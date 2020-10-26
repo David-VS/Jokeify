@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/jokeListFragment">
+
+    <fragment
+        android:id="@+id/jokeListFragment"
+        android:name="be.ehb.jokeify.fragments.JokeListFragment"
+        android:label="fragment_joke_list"
+        tools:layout="@layout/fragment_joke_list" />
+</navigation>
